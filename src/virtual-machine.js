@@ -476,7 +476,7 @@ class VirtualMachine extends EventEmitter {
 
         return zip.generateAsync({
             type: 'blob',
-            mimeType: 'application/x.openblock.ob',
+            mimeType: 'application/x.stemstar.ss',
             compression: 'DEFLATE',
             compressionOptions: {
                 level: 6 // Tradeoff between best speed (1) and best compression (9)
@@ -527,7 +527,7 @@ class VirtualMachine extends EventEmitter {
 
         return zip.generateAsync({
             type: typeof optZipType === 'string' ? optZipType : 'blob',
-            mimeType: 'application/x.openblock.sprite3',
+            mimeType: 'application/x.stemstar.sprite3',
             compression: 'DEFLATE',
             compressionOptions: {
                 level: 6
