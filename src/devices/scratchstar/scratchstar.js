@@ -80,20 +80,6 @@ class ScratchStarDevice {
      */
     getInfo () {
         return [
-            {
-                id: 'pin',
-                name: 'Scratch Star',
-                color1: '#4C97FF',
-                color2: '#3373CC',
-                color3: '#3373CC',
-
-                blocks: [
-                    
-                ],
-                menus: {
-                    
-                }
-            }
         ];
     }
 
