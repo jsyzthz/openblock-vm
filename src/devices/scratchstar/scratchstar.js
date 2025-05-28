@@ -70,7 +70,7 @@ class ScratchStarDevice {
         this.runtime = runtime;
 
         // Create a new Arduino uno peripheral instance
-        this._peripheral = new ArduinoUno(this.runtime, this.DEVICE_ID, originalDeviceId);
+        this._peripheral = new ScratchStar(this.runtime, this.DEVICE_ID, originalDeviceId);
 
         this._peripheral.numDigitalPins = 14;
     }
