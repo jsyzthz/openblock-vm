@@ -57,6 +57,10 @@ class ScratchStar extends ArduinoPeripheral{
  */
 class ScratchStarDevice {
     
+    get DEVICE_ID () {
+        return 'scratchstar';
+    }
+
     /**
      * Construct a set of Arduino blocks.
      * @param {Runtime} runtime - the OpenBlock runtime.
